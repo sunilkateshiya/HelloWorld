@@ -51,32 +51,18 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FcX-OU-NTe">
-                                <rect key="frame" x="59" y="149" width="264" height="115"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fHG-bc-VGB">
-                                        <rect key="frame" x="0.0" y="0.0" width="264" height="115"/>
-                                    </imageView>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="115" id="5su-cV-QG8"/>
-                                </constraints>
-                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="0.60000002379999995" green="0.40000000600000002" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Dfd-CE-nkY" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="7Cv-Hi-7Dm"/>
                             <constraint firstItem="XOR-nz-PZc" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="BBA-Mn-JWp"/>
-                            <constraint firstItem="FcX-OU-NTe" firstAttribute="top" secondItem="Dfd-CE-nkY" secondAttribute="bottom" constant="85" id="OUm-wo-Mej"/>
-                            <constraint firstItem="FcX-OU-NTe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="59" id="TlP-Jj-5ig"/>
                             <constraint firstAttribute="trailingMargin" secondItem="vxL-yX-zhA" secondAttribute="trailing" constant="45" id="Uzb-ew-bjh"/>
                             <constraint firstItem="Dfd-CE-nkY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="aVr-nL-eJd"/>
                             <constraint firstAttribute="trailing" secondItem="Dfd-CE-nkY" secondAttribute="trailing" id="eXJ-Bx-GaG"/>
                             <constraint firstItem="XOR-nz-PZc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jxo-hn-rgu"/>
                             <constraint firstItem="XOR-nz-PZc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lfG-Lp-Iz8"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="vxL-yX-zhA" secondAttribute="bottom" constant="27" id="nqY-to-Si8"/>
-                            <constraint firstAttribute="trailing" secondItem="FcX-OU-NTe" secondAttribute="trailing" constant="52" id="uCi-uE-aeW"/>
                         </constraints>
                     </view>
                 </viewController>
